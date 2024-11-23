@@ -23,8 +23,8 @@ data class STrack(
 @Serializable
 enum class RepeatMode {
     OFF,
-    ALL,
-    ONE
+    ONE,
+    ALL
 }
 
 @Serializable
