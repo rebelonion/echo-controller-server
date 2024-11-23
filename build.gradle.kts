@@ -32,6 +32,7 @@ dependencies {
     implementation("io.ktor:ktor-server-config-yaml-jvm")
     implementation("io.ktor:ktor-server-websockets-jvm")
     implementation("io.ktor:ktor-server-rate-limit")
+    implementation("io.ktor:ktor-server-forwarded-header")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.0")
     implementation("io.github.flaxoos:ktor-server-rate-limiting:2.1.1")
 }
