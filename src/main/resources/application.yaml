@@ -1,0 +1,6 @@
+ktor:
+  application:
+    modules:
+      - dev.rebelonion.ApplicationKt.module
+  deployment:
+    port: 443

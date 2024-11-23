@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  echo-server:
+    build: .
+    container_name: echo-controller
+    ports:
+      - "443:443"
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 256M
+
+networks:
+  default:
+    name: echo-network
